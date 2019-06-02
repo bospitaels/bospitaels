@@ -1,0 +1,136 @@
+body {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+main {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-left: 5%;
+}
+
+video {
+  width: 100%;
+  z-index: 0;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 600;
+  font-size: 5vh;
+  color: white;
+  position: absolute;
+  padding: 0.4rem;
+  z-index: 1;
+  text-align: center;
+  transition: all .5s ease-out;
+  animation-direction: alternate;
+}
+
+a:hover {
+color: black;
+}
+
+.home {
+  top: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.about {
+  left: 1rem;
+  top: 49%;
+  transform: rotate(-90deg);
+}
+
+.aboutkader {
+   width: 50%;
+   z-index: 1;
+   position: absolute;
+   left: 33%;
+   top: 25%;
+   color: white;
+}
+
+.work {
+  top: 90%;
+  width: 100%;
+  text-align: center;
+}
+
+.workkader {
+  z-index: 1;
+  position: absolute;
+  top: 18%;
+  left: 21%;
+  width: 40vw;
+  height: 25vh;
+}
+
+.contact {
+  right: 1rem;
+  top: 49%;
+  transform: rotate(90deg);
+}
+
+.contactformulier {
+  width: 50%;
+  z-index: 1;
+  position: absolute;
+  left: 32%;
+  top: 10%;
+  color: white;
+  text-align: center;
+}
+
+input, textarea {
+  opacity: 0.9;
+  border-radius: 1vh;
+  margin-bottom: 2vh;
+  width: 20vw;
+}
+
+label {
+  display: block;
+  margin-bottom: 1vh;
+}
+
+p {
+  font-size: 1.7vh;
+  font-family: 'helvetica', sans-serif;
+  width: 70%;
+  color: white;
+  line-height: 2.5vh;
+}
+
+h2 {
+  font-family: 'forma-djr-display', sans-serif;
+  font-weight: 600;
+  font-size: 4vh;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  width: 70%;
+}
+
+h3 {
+  font-family: 'forma-djr-display', sans-serif;
+  font-weight: 600;
+  font-size: 2vh;
+  width: 70%;
+  margin-top: -2vh;
+  margin-bottom: 2vh;
+}
+
+img {
+      width: 40vw;
+}
+
+.mijnslides {
+  display:none;
+}
